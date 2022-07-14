@@ -4,8 +4,9 @@ let lockBoard = false; // prevent multiple clicks
 let firstCard, secondCard; // variables to store and compare selected cards
 let pairCoutnter = 0; // game end when all cards flipped
 let person; // name  of the player
+let cardData; // card data for alerts
 
-// alert on page load
+// prompt on page load
 window.onload = function() {
     function getName() {
         let text;
@@ -19,7 +20,31 @@ window.onload = function() {
         document.getElementById("insert-name").innerHTML = text;
     };
     getName();      
-  }
+}
+
+// get json data
+function getData(cb) {
+    
+    var xhr = new XMLHttpRequest(cb);
+    xhr.open("GET", "./assets/data.json", true);
+    xhr.send();
+    
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            cb(JSON.parse(this.responseText));   
+        }
+    }
+}
+// loop through json data
+getData(function(data) {
+      
+    for (let i=0; i<data.length; i++) {
+        cardData[key] = Object.keys(data[i]);
+
+        console.log(cardData);
+    }
+
+});
 
 // flip cards
 function flipCard() {
@@ -53,6 +78,7 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    console.log(firstCard, secondCard);
     pairCoutnter ++;
     resetBoard();
 }
