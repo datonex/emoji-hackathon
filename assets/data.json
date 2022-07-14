@@ -1,0 +1,32 @@
+[
+    {
+      "name": "face-blowing-a-kiss",
+      "data": "A yellow face winking with puckered lips blowing a kiss, depicted as a small, red heart. May represent a kiss goodbye or good night and convey feelings of love and affection more generally. Many platforms feature the same eyes as on their 😉 Winking Face.",
+      "fileName": "face-blowing-a-kiss.png"
+    },
+    {
+      "name": "face-with-tears-of-joy",
+      "data": "A yellow face with a big grin, uplifted eyebrows, and smiling eyes, each shedding a tear from laughing so hard. Widely used to show something is funny or pleasing. Named the Oxford Dictionaries 2015 Word of the Year, and the most used emoji on all platforms from 2011-2021. Briefly overtaken as the top emoji on Twitter in 2021 by 😭 Loudly Crying Face, though as of January 2022 it has reclaimed its top position on the platform.",
+      "fileName": "face-with-tears-of-joy.png"
+    },
+    {
+      "name": "grinning-face",
+      "data": "A yellow face with simple, open eyes and a broad, open smile, showing upper teeth and tongue on some platforms. Often conveys general pleasure and good cheer or humor. Not to be confused with 😃 Grinning Face With Big Eyes or 😄 Grinning Face With Smiling Eyes, which have the same smiles but more expressive eye shapes.",
+      "fileName": "grinning-face.png"
+    },
+    {
+        "name": "smiling-face-with-heart-eyes",
+        "data": "A yellow face with an open smile, sometimes showing teeth, and red, cartoon-styled hearts for eyes. Often conveys enthusiastic feelings of love, infatuation, and adoration, e.g., I love/am in love with this person or thing.",
+        "fileName": "smiling-face-with-heart-eyes.png"
+    },
+    {
+        "name": "smiling-face-with-sunglasses",
+        "data": "A yellow face with a broad, closed smile wearing black sunglasses, as if a pair of classic Wayfarers. Often used to convey the slang sense of cool. May also express a confident, carefree attitude or that something is excellent.",
+        "fileName": "smiling-face-with-sunglasses.png"
+    },
+    {
+        "name": "upside-down-face",
+        "data": "A classic smiley, turned upside down. Implemented as a flipped version of 🙂 Slightly Smiling Face on most platforms. Commonly used to convey irony, sarcasm, joking, or a sense of goofiness or silliness. Its intent can be similar to the bemused Oh well! of 🤷 Person Shrugging or the shruggie emoticon, ¯\\_(ツ)_//¯.",
+        "fileName": "upside-down-face.png"
+    }
+]
