@@ -3,6 +3,21 @@ let hasFlippedCard = false; // logic for first click and second click
 let lockBoard = false; // prevent multiple clicks
 let firstCard, secondCard; // variables to store and compare selected cards
 
+// alert on page load
+window.onload = function() {
+    function getName() {
+        let text;
+        let person = prompt("This is a simple memory game. Flip cards to find pairs. \n \n Please enter your name:", "Emoji 😉");
+        if (person == null || person == "") {
+          text = "Hello NoName!";
+        } else {
+          text = "Hello " + person + "!";
+        }
+        document.getElementById("insert-name").innerHTML = text;
+    };
+    getName();      
+  }
+
 // flip cards
 function flipCard() {
     if (lockBoard) return;
@@ -63,5 +78,9 @@ function resetBoard() {
         card.style.order =randomPos;
     });
 })();
+
+function quitGame() {
+    window.open("gameOver.html","_self");
+}
 
 cards.forEach(card => card.addEventListener('click', flipCard));
