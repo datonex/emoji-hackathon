@@ -2,14 +2,17 @@ const cards = document.querySelectorAll('.memory-card'); // all card elements
 let hasFlippedCard = false; // logic for first click and second click
 let lockBoard = false; // prevent multiple clicks
 let firstCard, secondCard; // variables to store and compare selected cards
+let pairCoutnter = 0; // game end when all cards flipped
+let person; // name  of the player
 
 // alert on page load
 window.onload = function() {
     function getName() {
         let text;
-        let person = prompt("This is a simple memory game. Flip cards to find pairs. \n \n Please enter your name:", "Emoji 😉");
+        person = prompt("This is a simple memory game. Flip cards to find pairs. \n \n Please enter your name:", "Emoji 😉");
         if (person == null || person == "") {
           text = "Hello NoName!";
+          person = "NoName"
         } else {
           text = "Hello " + person + "!";
         }
@@ -50,6 +53,7 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    pairCoutnter ++;
     resetBoard();
 }
 
@@ -66,8 +70,15 @@ function unflipCards() {
 }
 
 function resetBoard() {
+    // game end 
+    if (pairCoutnter == 6) {
+        alert("Congratulations " + person + "! You have won the game.")
+        quitGame();
+    }
+    else {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
+    }
 }
 
 (function shuffleCards() {
