@@ -1,6 +1,17 @@
 body {
     font-family: 'Bangers', cursive;
 }
+
+/* Navbar */
+.navbar-brand {
+    font-size: 7vh;
+}
+.nav-link {
+    font-size: 5vh;
+    margin: 20px;
+}
+
+/* Footer */
 .footer {
     background-color: aqua;
 }
