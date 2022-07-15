@@ -1,5 +1,6 @@
 body {
     font-family: 'Bangers', cursive;
+    background-image: linear-gradient(to right, rgba(245, 129, 66), rgba(225, 0, 127));
 }
 
 /* Navbar */
@@ -9,6 +10,37 @@ body {
 .nav-link {
     font-size: 5vh;
     margin: 20px;
+}
+
+/* index gallery */
+
+.fontawesome {
+    text-align: center;
+}
+
+.fontawesome > li {
+    display: inline;
+}
+
+.fontawesome i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #708090;
+}
+
+#photos1 {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#photos1 > img {
+    padding: 2px;
+    width: 100%;
 }
 
 /* Footer */
