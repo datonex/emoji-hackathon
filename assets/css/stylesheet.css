@@ -22,6 +22,10 @@ body {
     margin-top: 15px;
 }
 
+.logo {
+    height: 4.5vh;
+}
+
 /* navigation links */
 
 #menu {
