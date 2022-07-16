@@ -1,4 +1,3 @@
-
 # Emoji day
 
 ## Overview
@@ -51,7 +50,6 @@ MEMORY PAGE
 
 ![Wireframe memory game mobile](/assets/readme_img/wireframe_memorygame_mobile.png)
 
-
 ### Features left to implement
 
 ## Technologies
@@ -85,6 +83,12 @@ MEMORY PAGE
 - [jquery](https://jquery.com/) - Used in some of the clickable elements such as collapsible 'hamburger' nav bar and collapse element.
 
 - [popper.js](https://popper.js.org/) - Used in some of the clickable elements such as collapsible 'hamburger' navbar and collapse element.
+
+- [Canva](https://www.canva.com/) - Used to design favicon and logo
+
+- [Tinypng](https://tinypng.com/) - Used to compress logo and favicon images
+
+- [https://www.remove.bg/](https://www.remove.bg/) - Used to remove background on all images
 
 ## Testing
 
