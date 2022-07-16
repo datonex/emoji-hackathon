@@ -1,0 +1,83 @@
+body {
+    font-family: "Bangers", cursive;
+    background-image: linear-gradient(
+        to right,
+        rgba(245, 129, 66),
+        rgba(225, 0, 127)
+    );
+}
+
+#header {
+    background-image: linear-gradient(
+        to right,
+        rgba(245, 129, 66),
+        rgba(225, 0, 127)
+    );
+}
+
+#logo {
+    float: left;
+    height: 4.5vh;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.logo {
+    height: 4.5vh;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 5vh;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+    color: #ffff00;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #ffff00;
+}
+
+.active {
+    border-bottom: 1px solid #ffff00;
+}
+
+/* hero-image */
+
+#hero-outer {
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#hero-image {
+    width: 100%;
+    height: 250px;
+}
+
+.text-center {
+    padding-top: 30px;
+    color: #ffff00;
+}
+
+/* Footer */
+.footer {
+    background-color: aqua;
+}
