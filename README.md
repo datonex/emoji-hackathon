@@ -33,6 +33,25 @@ MEMORY PAGE
 - As a user I want to see the scores it takes me to complete the game so I can compete against myself
 - As a user I want to be notified when I complete the game so that I can restart it
 
+### Wireframes
+
+**Desktop & Tablet:**
+
+![Wireframe home](/assets/readme_img/wireframe_home.png)
+
+![Wireframe quiz](/assets/readme_img/wireframe_quiz.png)
+
+![Wireframe memory game](/assets/readme_img/wireframe_memorygame.png)
+
+**Mobile:**
+
+![Wireframe home mobile](/assets/readme_img/wireframe_home_mobile.png)
+
+![Wireframe quiz mobile](/assets/readme_img/wireframe_quiz_mobile.png)
+
+![Wireframe memory game mobile](/assets/readme_img/wireframe_memorygame_mobile.png)
+
+
 ### Features left to implement
 
 ## Technologies
