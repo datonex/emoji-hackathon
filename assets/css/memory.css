@@ -9,6 +9,7 @@ body {
     display: flex;
 }
 
+
 #scorebar {
     padding-top: 10px;
     position: absolute;
@@ -17,17 +18,13 @@ body {
     width: 100%;
     height: 10%;
     text-align: center;
-}
+  }
 
-.score-item {
+  .score-item {
     align-self: center;
     display: inline-block;
     width: 33%;
-}
-
-.logo {
-    height: 4.5vh;
-}
+  }
 
 .memory-game {
     width: 640px;
@@ -36,7 +33,7 @@ body {
     flex-wrap: wrap;
     margin: auto;
     /* 3D */
-    perspective: 1000px;
+    perspective: 1000px;    
 }
 
 .memory-card {
@@ -44,17 +41,17 @@ body {
     height: cals(33.333% -10px);
     position: relative;
     margin: 5px;
-    /* starting point for flip */
+    /* starting point for flip */ 
     transform: scale(1);
     /* 3D */
     transform-style: preserve-3d;
-    transition: 0.5s;
+    transition: .5s;
 }
 
 /* click the card */
 .memory-card:active {
-    transform: scale(0.97);
-    transition: transform 0.2s;
+    transform: scale(.97);
+    transition: transform .2s;
 }
 
 /* flipped card*/
