@@ -82,7 +82,11 @@
 /*------- Media ---------*/
 @media screen and (max-width: 700px) {
     .memory-game {
-        width: 80vw;
         height: 60vh;
     }
-  }
+}
+@media screen and (max-width: 500px) {
+    .memory-game {
+        height: 50vh;
+    }
+}
