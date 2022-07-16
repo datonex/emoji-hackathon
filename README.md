@@ -22,7 +22,7 @@ HOMEPAGE
 - As a user I want to know what the site is about so I know what to expect from it
 - As a user I want to see the team behind the page with links to their github so that I can find out more about them
 
-FUN PAGE
+QUIZ PAGE
 
 - As a user I want to interact with emojis so I can learn more about them
 - As a user I want to interact with emojis so I can test my skills
