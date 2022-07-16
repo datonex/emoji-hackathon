@@ -6,7 +6,8 @@
 We want to celebrate World Emoji day on the 17th of July with an interactive site to learn more about the emojis and their history. Did you for instance know that each festive day have a dedicated emoji? Play our checkbox game to find out more. Are we sometimes misunderstanding the Emojis meaning? Head over to our memory game to test your emoji memory and learn about how each emoji is described and their meaning.
 This site is interactive and fun and you'll leave knowing more about Emojis than you did before!
 
-_This project was created to celebrate emoji day by creating a memory game. THe aim of the game is to select a card and attempt to find it's matching pair. There is also a game called guess the event where the user has to guess what the name of the event is using the emoji_
+_Memory game:_ The aim of the game is to select a card and attempt to find it's matching pair. 
+_Guess the event quiz:_ The user has to guess what the name of the event is using the emoji.
 
 :desktop_computer: [Live Website](https://datonex.github.io/emoji-hackathon/)
 
@@ -108,6 +109,10 @@ MEMORY PAGE
 
 #### Acknowledgements
 
-### Colaborate
-
-Ivette
+### Collaborate / Team
+Tanya:
+Viktoria:
+Ivette:
+Eleanor:
+Pavithra:
+Martin:
