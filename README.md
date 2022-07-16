@@ -107,6 +107,9 @@ MEMORY PAGE
 
 #### Content
 
+[Bangers - Google font](https://fonts.google.com/specimen/Bangers)
+
+
 #### Acknowledgements
 
 ### Collaborate / Team
@@ -115,4 +118,3 @@ Viktoria:
 Ivette:
 Eleanor:
 Pavithra:
-Martin:
