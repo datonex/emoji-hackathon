@@ -16,7 +16,7 @@ let questions = [
 },
 {
     question: 'Which festival does 🎃 represent?',
-    options: ['Halloweeen','New years eve','Independence Day'],
+    options: ['Halloweeen','New Years Eve','Independence Day'],
     answer: 1,
 },
 {
@@ -26,7 +26,7 @@ let questions = [
 },
 {
     question: 'Which event does 📖 represent?',
-    options: ['World book day','Graduation','Womens day'],
+    options: ['World Book day','Graduation','Womens day'],
     answer: 1,
 },
 {
@@ -36,17 +36,17 @@ let questions = [
 },
 {
     question: 'Which event does 🐉 represent?',
-    options: ['Chinese New Year','New Year','emoji day'],
+    options: ['Chinese New Year','New Year','Emoji day'],
     answer: 1,
 },
 {
     question: 'Which event does ☘️ represent?',
-    options: ['Earth day', 'St Patricks day','emoji day'],
+    options: ['Earth day', 'St Patricks day','Emoji day'],
     answer: 2,
 },
 {
     question: 'Which event does ❤️ represent?',
-    options: ['Thanks giving','Veterans day','valentines day'],
+    options: ['Thanks Giving','Veterans day','Valentines day'],
     answer: 3,
 },
 ]
