@@ -1,17 +1,17 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
-body {
-    height: 100vh;
+#game-body {
+    height: 80vh;
     display: flex;
 }
 
 #scorebar {
     padding-top: 10px;
-    position: absolute;
+    /* position: absolute; */
     border-radius: 2px;
     display: flex;
     width: 100%;
@@ -78,3 +78,11 @@ body {
 .front-face {
     transform: rotateY(180deg);
 }
+
+/*------- Media ---------*/
+@media screen and (max-width: 700px) {
+    .memory-game {
+        width: 80vw;
+        height: 60vh;
+    }
+  }

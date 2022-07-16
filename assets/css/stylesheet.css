@@ -80,4 +80,6 @@ body {
 /* Footer */
 .footer {
     background-color: aqua;
+    text-align: center;
+    margin-top: 15px;
 }

@@ -9,6 +9,12 @@
             rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous" />
+        <!-- Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+            rel="stylesheet" />   
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/stylesheet.css" /> 
         <link rel="stylesheet" href="./assets/css/memory.css" />
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
@@ -63,98 +69,103 @@
                 <h2 id="insert-name"></h2>
             </div>
             <div class="score-item">
-                <button type="button" class="btn btn-danger mb-2 btn-sm" onclick="quitGame()">
+                <button type="button" class="btn btn-warning border-secondary mb-2 btn-sm" onclick="quitGame()">
                     QUIT GAME
                 </button>
             </div>
         </div>
+
         <!-- Game board -->
-        <section class="memory-game" style="display: flex">
-            <!-- Cards -->
-            <div class="memory-card" data-framework="face-blowing-a-kiss">
-                <img
-                    src="./assets/img/face-blowing-a-kiss.png"
-                    alt="face-blowing-a-kiss"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="face-blowing-a-kiss">
-                <img
-                    src="./assets/img/face-blowing-a-kiss.png"
-                    alt="face-blowing-a-kiss"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="face-with-tears-of-joy">
-                <img
-                    src="./assets/img/face-with-tears-of-joy.png"
-                    alt="face-with-tears-of-joy"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="face-with-tears-of-joy">
-                <img
-                    src="./assets/img/face-with-tears-of-joy.png"
-                    alt="face-with-tears-of-joy"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="grinning-face">
-                <img src="./assets/img/grinning-face.png" alt="grinning-face" class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="grinning-face">
-                <img src="./assets/img/grinning-face.png" alt="grinning-face" class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="smiling-face-with-heart-eyes">
-                <img
-                    src="./assets/img/smiling-face-with-heart-eyes.png"
-                    alt="smiling-face-with-heart-eyes"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="smiling-face-with-heart-eyes">
-                <img
-                    src="./assets/img/smiling-face-with-heart-eyes.png"
-                    alt="smiling-face-with-heart-eyes"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="smiling-face-with-sunglasses">
-                <img
-                    src="./assets/img/smiling-face-with-sunglasses.png"
-                    alt="smiling-face-with-sunglasses"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="smiling-face-with-sunglasses">
-                <img
-                    src="./assets/img/smiling-face-with-sunglasses.png"
-                    alt="smiling-face-with-sunglasses"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="upside-down-face">
-                <img
-                    src="./assets/img/upside-down-face.png"
-                    alt="upside-down-face"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
-            </div>
-            <div class="memory-card" data-framework="upside-down-face">
-                <img
-                    src="./assets/img/upside-down-face.png"
-                    alt="upside-down-face"
-                    class="front-face" />
-                <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+        <section id="game-body">
+            <!-- test -->
+            <div class="memory-game">
+                <!-- Cards -->
+                <div class="memory-card" data-framework="face-blowing-a-kiss">
+                    <img
+                        src="./assets/img/face-blowing-a-kiss.png"
+                        alt="face-blowing-a-kiss"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="face-blowing-a-kiss">
+                    <img
+                        src="./assets/img/face-blowing-a-kiss.png"
+                        alt="face-blowing-a-kiss"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="face-with-tears-of-joy">
+                    <img
+                        src="./assets/img/face-with-tears-of-joy.png"
+                        alt="face-with-tears-of-joy"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="face-with-tears-of-joy">
+                    <img
+                        src="./assets/img/face-with-tears-of-joy.png"
+                        alt="face-with-tears-of-joy"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="grinning-face">
+                    <img src="./assets/img/grinning-face.png" alt="grinning-face" class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="grinning-face">
+                    <img src="./assets/img/grinning-face.png" alt="grinning-face" class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="smiling-face-with-heart-eyes">
+                    <img
+                        src="./assets/img/smiling-face-with-heart-eyes.png"
+                        alt="smiling-face-with-heart-eyes"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="smiling-face-with-heart-eyes">
+                    <img
+                        src="./assets/img/smiling-face-with-heart-eyes.png"
+                        alt="smiling-face-with-heart-eyes"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="smiling-face-with-sunglasses">
+                    <img
+                        src="./assets/img/smiling-face-with-sunglasses.png"
+                        alt="smiling-face-with-sunglasses"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="smiling-face-with-sunglasses">
+                    <img
+                        src="./assets/img/smiling-face-with-sunglasses.png"
+                        alt="smiling-face-with-sunglasses"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="upside-down-face">
+                    <img
+                        src="./assets/img/upside-down-face.png"
+                        alt="upside-down-face"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
+                <div class="memory-card" data-framework="upside-down-face">
+                    <img
+                        src="./assets/img/upside-down-face.png"
+                        alt="upside-down-face"
+                        class="front-face" />
+                    <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
+                </div>
             </div>
         </section>
+
+        <footer class="footer">@Tanya @Martin @Ivette @Eleanor @Pavithra @Viktoria</footer>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
         <script src="./assets/js/memory.js"></script>
-        <footer>@Tanya @Martin @Ivette @Eleanor @Pavithra @Viktoria</footer>
     </body>
 </html>
