@@ -44,21 +44,26 @@ body {
     border-bottom: 1px solid #ffff00;
 }
 
-/* index gallery */
+/* hero-image */
 
-#photos1 {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 2px;
+#hero-outer {
+    padding-top: 80px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 
-#photos1 > img {
-    padding: 2px;
+#hero-image {
     width: 100%;
+    height: 250px;
+    
 }
+
+.text-center {
+    padding-top: 30px;
+    color: #ffff00;
+}
+
 
 /* Footer */
 .footer {
