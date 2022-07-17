@@ -1,3 +1,15 @@
+
+* {
+    margin: 0;
+    border: none;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Bangers", cursive;
     background-image: linear-gradient(to right,
@@ -11,7 +23,7 @@ body {
             rgba(225, 0, 127));
 }
 
-#logo {
+/* #logo {
     float: left;
     height: 4.5vh;
     padding-left: 30px;
@@ -20,39 +32,47 @@ body {
 
 .logo {
     height: 4.5vh;
-}
+} */
 
 /* navigation links */
 
-.menu {
-    font-size: 5vh;
+.nav-link {
+    font-size: 4vh;
     letter-spacing: 4px;
-}
-
-.menu,
-#logo {
-    line-height: 75px;
     color: #6CC7C6;
 }
 
-.menu li {
-    float: right;
+.nav-link a {
+    color: #6CC7C6;
+}
+
+a.navbar-brand:active,
+a.navbar-brand:hover {
+   text-decoration: none !important;
+}
+
+.active,
+a:hover {
+    color: #E1FFC1 !important;
+    /* border-bottom: 1px solid #6CC7C6 !important; */
+}
+/* .menu li {  
     list-style-type: none;
     margin-right: 30px;
-}
+} */
 
-.menu a {
+/* .menu a {
     text-decoration: none;
     color: inherit;
-}
+} */
 
-.menu a:hover {
+/* .menu a:hover {
     border-bottom: 1px solid #6CC7C6;
-}
+} */
 
-.active {
+/* .active {
     border-bottom: 1px solid #6CC7C6;
-}
+} */
 
 /* hero-image */
 
@@ -78,8 +98,8 @@ body {
 
 #emoji-facts > h1 {
 position: absolute;
-  width: 100%;
-  text-align: center;
+width: 100%;
+text-align: center;
 }
 
 #emoji-facts > h2 {
@@ -95,6 +115,17 @@ position: absolute;
 
 /* For medium screen sizes from 900px wide and down */
 @media screen and (max-width: 900px) {
+    .nav-link {
+        font-size: 1.8vh;
+        margin: 0;
+    }
+    .navbar-brand img {
+        width: 15vh;
+        height: 20%;
+    }
+    .nav-item {
+        padding: 0;
+    }
     .menu {
         font-size: 3vh;
     }
