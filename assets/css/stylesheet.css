@@ -11,7 +11,7 @@ body {
             rgba(225, 0, 127));
 }
 
-#logo {
+/* #logo {
     float: left;
     height: 4.5vh;
     padding-left: 30px;
@@ -20,39 +20,47 @@ body {
 
 .logo {
     height: 4.5vh;
-}
+} */
 
 /* navigation links */
 
-.menu {
-    font-size: 5vh;
+.nav-link {
+    font-size: 4vh;
     letter-spacing: 4px;
-}
-
-.menu,
-#logo {
-    line-height: 75px;
     color: #6CC7C6;
 }
 
-.menu li {
-    float: right;
+.nav-link a {
+    color: #6CC7C6;
+    text-decoration: none;
+}
+a.navbar-brand:active,
+a.navbar-brand:hover {
+   text-decoration: none !important;
+}
+
+a:active,
+a:hover {
+    color: #6CC7C6 !important;
+    border-bottom: 1px solid #6CC7C6 !important;
+}
+/* .menu li {  
     list-style-type: none;
     margin-right: 30px;
-}
+} */
 
-.menu a {
+/* .menu a {
     text-decoration: none;
     color: inherit;
-}
+} */
 
-.menu a:hover {
+/* .menu a:hover {
     border-bottom: 1px solid #6CC7C6;
-}
+} */
 
-.active {
+/* .active {
     border-bottom: 1px solid #6CC7C6;
-}
+} */
 
 /* hero-image */
 
