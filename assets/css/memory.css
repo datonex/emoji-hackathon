@@ -7,7 +7,9 @@
 .m-3 {
     margin: 0 !important;
 }
-
+.navbar {
+    padding-bottom: 0.5rem;
+}
 #game-body {
     height: 70vh;
     display: flex;
@@ -99,12 +101,6 @@
     .memory-game {
         width: 80vw;
     }
-}
-@media screen and (max-width: 500px) {
-    .memory-game {
-        width: 90vw;
-        height: 70vh;
-    }
     .my-btn {
         width: 80px !important;
         height: 80px !important;
@@ -113,5 +109,32 @@
     }
     #quit-btn {
         width: 80px;
+    }
+    .emoji {
+        font-size: 1em;
+    }
+    .colaborators {
+        width: 30%;
+    }
+    .colaborators p {
+        font-size: 0.8em;
+    }.logo-in-footer p {
+        font-size: 0.8em;
+    }
+    .navbar {
+        padding-bottom: 0;
+    }
+    #footer-container {
+        text-align: center;
+    }
+    .footer {
+        position: absolute;
+        height: auto;
+    }
+}
+@media screen and (max-width: 500px) {
+    .memory-game {
+        width: 90vw;
+        height: 65vh;
     }
 }
