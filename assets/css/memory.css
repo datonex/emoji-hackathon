@@ -1,17 +1,17 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
-body {
-    height: 100vh;
+#game-body {
+    height: 80vh;
     display: flex;
 }
 
 #scorebar {
     padding-top: 10px;
-    position: absolute;
+    /* position: absolute; */
     border-radius: 2px;
     display: flex;
     width: 100%;
@@ -30,8 +30,8 @@ body {
 }
 
 .memory-game {
-    width: 640px;
-    height: 640px;
+    width: 80vw;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -77,4 +77,16 @@ body {
 /* show front face on flip */
 .front-face {
     transform: rotateY(180deg);
+}
+
+/*------- Media ---------*/
+@media screen and (max-width: 700px) {
+    .memory-game {
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    .memory-game {
+        height: 50vh;
+    }
 }
