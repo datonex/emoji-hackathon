@@ -44,12 +44,11 @@
 
         <!-- Score bar -->
         <div id="scorebar">
-            <div class="score-item"></div>
             <div class="score-item">
-                <h2 id="insert-name"></h2>
+                <h2 class="ms-3 mb-0" id="insert-name"></h2>
             </div>
             <div class="score-item">
-                <button type="button" class="btn btn-warning border-secondary mb-2 btn-sm" onclick="quitGame()">
+                <button type="button" class="btn btn-warning border-secondary mb-2 btn-sm" id="quit-btn" onclick="quitGame()">
                     QUIT GAME
                 </button>
             </div>
@@ -141,7 +140,50 @@
             </div>
         </section>
 
-        <footer class="footer">@Tanya @Martin @Ivette @Eleanor @Pavithra @Viktoria</footer>
+        <footer class="footer">
+            <div class="logo-in-footer">
+                <img id="logo" alt="enemoji logo" src="assets/img/logo/logo-blue.png"><br>
+                <p>©️ Code Institute Emoji Day Hackathon</p><br>
+            </div>
+            <div id="footer-container">
+                    <div class="colaborators"></li>
+                        <span class="emoji">🦖</span>
+                            <p>@Tanya</p>
+                            <a href="https://www.linkedin.com/in/tanyagomwe10/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/datonex" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>   
+                    <div class="colaborators"></li>
+                        <span class="emoji">🤣</span>
+                            <p>@Martin</p>
+                            <a href="https://www.linkedin.com/in/martin-pavlin/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Martin-ITT" target="_blank"><i class="fab fa-github" target="_blank"></i></a>
+                    </div> 
+                <div class="colaborators"></li>
+                    <span class="emoji" >🤦</span>
+                        <p>@Ivette</p>
+                        <a href="https://www.linkedin.com/in/ivette-mc-dermott-8b2045242/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/IvetteMcDermott" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="colaborators"></li>
+                    <span class="emoji">🙈</span>
+                        <p>@Eleanor</p>
+                        <a href="https://www.linkedin.com/in/eleanor-bucke-38a5b6222" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/eleanorbucke21" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="colaborators"></li>
+                    <span class="emoji">👩</span>   
+                        <p>@Pavithra</p>
+                        <a href="https://www.linkedin.com/in/pavithra-veeramani-a31a6b22/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Pavithra-Veeramani" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="colaborators"></li>
+                    <span class="emoji">🍾</span>
+                        <p>@Viktoria</p>
+                        <a href="https://www.linkedin.com/in/viktoria-mahrberg/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/viktoriamahrberg" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </ul>
+        </footer>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
