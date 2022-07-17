@@ -4,14 +4,16 @@
     /* box-sizing: border-box; */
 }
 
+.m-3 {
+    margin: 0 !important;
+}
+
 #game-body {
-    height: 80vh;
+    height: 70vh;
     display: flex;
 }
 
 #scorebar {
-    padding-top: 10px;
-    /* position: absolute; */
     border-radius: 2px;
     display: flex;
     width: 100%;
@@ -22,9 +24,17 @@
 .score-item {
     align-self: center;
     display: inline-block;
-    width: 33%;
+    width: 50%;
+    text-align: center;
 }
 
+.my-btn {
+    width: 150px !important;
+}
+
+#quit-btn {
+    width: 150px !important;
+}
 .logo {
     height: 4.5vh;
 }
@@ -80,13 +90,28 @@
 }
 
 /*------- Media ---------*/
+@media screen and (min-width: 980px) {
+    .memory-game {
+        width: 50vw;
+    }
+}
 @media screen and (max-width: 700px) {
     .memory-game {
-        height: 60vh;
+        width: 80vw;
     }
 }
 @media screen and (max-width: 500px) {
     .memory-game {
-        height: 50vh;
+        width: 90vw;
+        height: 70vh;
+    }
+    .my-btn {
+        width: 80px !important;
+        height: 80px !important;
+        display: block;
+        margin: auto;
+    }
+    #quit-btn {
+        width: 80px;
     }
 }
