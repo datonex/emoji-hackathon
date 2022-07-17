@@ -81,10 +81,10 @@ body {
     margin-top: 15px;
 }
 
-/* For medium screen sizes from 500px wide and down */
-@media screen and (max-width: 500px) {
+/* For medium screen sizes from 900px wide and down */
+@media screen and (max-width: 900px) {
     .menu {
-        font-size: 120%;
+        font-size: 3vh;
     }
 
     .menu li {
