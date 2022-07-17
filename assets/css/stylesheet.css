@@ -74,6 +74,10 @@ a:hover {
     border-bottom: 1px solid #6CC7C6;
 } */
 
+#tribute {
+    color:#6CC7C6;
+}
+
 /* hero-image */
 
 .hero-outer {
@@ -93,7 +97,7 @@ a:hover {
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    color: #ffffff;
+    color: #E1FFC1;
 }
 
 #emoji-facts > h1 {
