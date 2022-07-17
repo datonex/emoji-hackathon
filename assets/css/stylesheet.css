@@ -11,25 +11,29 @@ body {
 
 body {
     font-family: "Bangers", cursive;
-    background-image: linear-gradient(to right,
-            rgba(245, 129, 66),
-            rgba(225, 0, 127));
+    background-image: linear-gradient(
+        to right,
+        rgba(245, 129, 66),
+        rgba(225, 0, 127)
+    );
 }
 
 .header {
-    background-image: linear-gradient(to right,
-            rgba(245, 129, 66),
-            rgba(225, 0, 127));
+    background-image: linear-gradient(
+        to right,
+        rgba(245, 129, 66),
+        rgba(225, 0, 127)
+    );
 }
 
 .nav-link {
     font-size: 4vh;
     letter-spacing: 4px;
-    color: #6CC7C6;
+    color: #6cc7c6;
 }
 
 .nav-link a {
-    color: #6CC7C6;
+    color: #6cc7c6;
 }
 
 a.navbar-brand:active,
@@ -39,56 +43,31 @@ a.navbar-brand:hover {
 
 .active,
 a:hover {
-    color: #E1FFC1 !important;
+    color: #e1ffc1 !important;
 }
-/* .menu li {  
-    list-style-type: none;
-    margin-right: 30px;
-} */
-
-/* .menu a {
-    text-decoration: none;
-    color: inherit;
-} */
-
-/* .menu a:hover {
-    border-bottom: 1px solid #6CC7C6;
-} */
-
-/* .active {
-    border-bottom: 1px solid #6CC7C6;
-} */
 
 #tribute {
-    color:#6CC7C6;
+    color: #6cc7c6;
 }
 
 /* hero-image */
 
-.hero-outer {
-    padding-top: 80px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 0px;
-}
-
 #hero-image {
     width: 100%;
     height: 100px;
-
 }
 
 #emoji-facts {
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    color: #E1FFC1;
+    color: #e1ffc1;
 }
 
 #emoji-facts > h1 {
-position: absolute;
-width: 100%;
-text-align: center;
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
 
 #emoji-facts > h2 {
@@ -100,7 +79,7 @@ text-align: center;
     bottom: 0;
     width: 100%;
     height: 10%;
-    background: #6CC7C6;
+    background: #6cc7c6;
     position: sticky;
 }
 
@@ -136,7 +115,6 @@ text-align: center;
 
 .emoji {
     font-size: 1em;
-
 }
 
 .colaborators p,
@@ -194,7 +172,5 @@ text-align: center;
     }
     .emoji {
         font-size: 0.7em;
-    
     }
-
 }
