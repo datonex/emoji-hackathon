@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     border: none;
@@ -35,7 +34,7 @@ body {
 
 a.navbar-brand:active,
 a.navbar-brand:hover {
-   text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 .active,
@@ -63,12 +62,13 @@ a:hover {
 
 /* Footer */
 .footer {
-    bottom:0;
-    width:100%;
-    height:10%;   
+    bottom: 0;
+    width: 100%;
+    height: 10%;
     background: #6CC7C6;
-    position:sticky;
+    position: sticky;
 }
+
 /* .logo-in-footer {
     width: 100%;
     display: flex;
@@ -82,14 +82,15 @@ a:hover {
     padding: 0;
     margin-right: 10px;
 } */
-#footer-container{
+#footer-container {
     width: 96%;
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
 }
+
 .colaborators {
-    width:16%;
+    width: 16%;
     min-width: 100px;
     display: inline-block;
     flex-wrap: wrap;
@@ -97,10 +98,12 @@ a:hover {
     overflow: hide;
     margin-top: 20px;
 }
+
 .emoji {
-   font-size: 1em;
-   
+    font-size: 1em;
+
 }
+
 .colaborators p,
 .text-center p {
     color: #f25256;
@@ -108,6 +111,7 @@ a:hover {
     margin: 0 auto;
     padding: 0;
 }
+
 .colaborators i {
     font-size: 1em;
     color: #f25256;
@@ -120,13 +124,16 @@ a:hover {
         font-size: 1.8vh;
         margin: 0;
     }
+
     .navbar-brand img {
         width: 15vh;
         height: 20%;
     }
+
     .nav-item {
         padding: 0;
     }
+
     .menu {
         font-size: 3vh;
     }
@@ -136,15 +143,23 @@ a:hover {
     }
 
     .menu a {
-   padding-bottom: 30px;
+        padding-bottom: 30px;
     }
 
     .colaborators p,
     .text-center p {
-    font-size: 0.7em;
-}
-.colaborators i {
-    font-size: 0.7em;
-    padding-bottom: 10px;
-}
+        font-size: 0.7em;
+        padding: 0;
+    }
+
+    .colaborators i {
+        font-size: 0.7em;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .emoji {
+        font-size: 0.7em;
+    
+    }
+
 }
