@@ -41,6 +41,29 @@ a.navbar-brand:hover {
 a:hover {
     color: #E1FFC1 !important;
 }
+/* .menu li {  
+    list-style-type: none;
+    margin-right: 30px;
+} */
+
+/* .menu a {
+    text-decoration: none;
+    color: inherit;
+} */
+
+/* .menu a:hover {
+    border-bottom: 1px solid #6CC7C6;
+} */
+
+/* .active {
+    border-bottom: 1px solid #6CC7C6;
+} */
+
+#tribute {
+    color:#6CC7C6;
+}
+
+/* hero-image */
 
 .hero-outer {
     padding-top: 80px;
@@ -55,9 +78,21 @@ a:hover {
 
 }
 
-.text-center {
-    padding-top: 30px;
-    color: #ffff00;
+#emoji-facts {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #E1FFC1;
+}
+
+#emoji-facts > h1 {
+position: absolute;
+width: 100%;
+text-align: center;
+}
+
+#emoji-facts > h2 {
+    text-decoration: underline;
 }
 
 /* Footer */

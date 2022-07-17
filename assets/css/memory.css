@@ -4,14 +4,18 @@
     /* box-sizing: border-box; */
 }
 
+.m-3 {
+    margin: 0 !important;
+}
+.navbar {
+    padding-bottom: 0.5rem;
+}
 #game-body {
-    height: 80vh;
+    height: 70vh;
     display: flex;
 }
 
 #scorebar {
-    padding-top: 10px;
-    /* position: absolute; */
     border-radius: 2px;
     display: flex;
     width: 100%;
@@ -22,16 +26,24 @@
 .score-item {
     align-self: center;
     display: inline-block;
-    width: 33%;
+    width: 50%;
+    text-align: center;
 }
 
+.my-btn {
+    width: 150px !important;
+}
+
+#quit-btn {
+    width: 150px !important;
+}
 .logo {
     height: 4.5vh;
 }
 
 .memory-game {
-    width: 80vw;
-    height: 80vh;
+    width: 60vw;
+    height: 70vh;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -80,13 +92,49 @@
 }
 
 /*------- Media ---------*/
+@media screen and (min-width: 980px) {
+    .memory-game {
+        width: 50vw;
+    }
+}
 @media screen and (max-width: 700px) {
     .memory-game {
-        height: 60vh;
+        width: 80vw;
+    }
+    .my-btn {
+        width: 80px !important;
+        height: 80px !important;
+        display: block;
+        margin: auto;
+    }
+    #quit-btn {
+        width: 80px;
+    }
+    .emoji {
+        font-size: 1em;
+    }
+    .colaborators {
+        width: 30%;
+    }
+    .colaborators p {
+        font-size: 0.8em;
+    }.logo-in-footer p {
+        font-size: 0.8em;
+    }
+    .navbar {
+        padding-bottom: 0;
+    }
+    #footer-container {
+        text-align: center;
+    }
+    .footer {
+        position: absolute;
+        height: auto;
     }
 }
 @media screen and (max-width: 500px) {
     .memory-game {
-        height: 50vh;
+        width: 90vw;
+        height: 65vh;
     }
 }
