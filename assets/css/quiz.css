@@ -23,6 +23,31 @@
     transform: none;
 }
 
+.submit-btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid white;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #6cc7c6;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.submit-btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
 .btn-checkbox {
     color: #f25156 !important;
     background-color: white !important;
@@ -49,13 +74,19 @@
 .question {
     font-size: 3.5rem;
     margin-bottom: 10px;
+    color: white;
+}
+
+.light-green {
+    color: #e1ffc1;
+}
+
+.blue {
+    color: #6cc7c6;
 }
 
 .answers {
-    margin-bottom: 20px;
-    text-align: left;
-    display: inline-block;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .slide {

@@ -29,7 +29,7 @@
                 `<div class="slide">
                     <div class="question"> ${currentQuestion.question} </div>
                     <div class="btn-group-vertical w-100" role="group" aria-label="Sort radio toggle button group">
-                        <div class="mb-2 w-100"> ${answers.join('')} </div>
+                        <div class="mb-2 w-100 answers"> ${answers.join('')} </div>
                     </div>
                 </div>
                 `
