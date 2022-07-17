@@ -69,9 +69,21 @@ body {
 
 }
 
-.text-center {
+#emoji-facts {
     padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: #ffff00;
+}
+
+#emoji-facts > h1 {
+position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+#emoji-facts > h2 {
+    text-decoration: underline;
 }
 
 /* Footer */
