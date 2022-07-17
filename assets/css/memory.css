@@ -4,6 +4,9 @@
     /* box-sizing: border-box; */
 }
 
+.m-3 {
+    margin: 0 !important;
+}
 .navbar {
     padding-bottom: 0.5rem;
 }
@@ -50,7 +53,7 @@
 
 .memory-card {
     width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
+    height: cals(33.333% -10px);
     position: relative;
     margin: 5px;
     /* starting point for flip */
@@ -87,18 +90,6 @@
 .front-face {
     transform: rotateY(180deg);
 }
-.footer {
-    position: absolute;
-    height: auto;
-}
-
-
-#logo {
-    height: 25px;
-}
-.colaborators {
-    margin-top: 0 !important;
-}
 
 /*------- Media ---------*/
 @media screen and (min-width: 980px) {
@@ -108,11 +99,7 @@
 }
 @media screen and (max-width: 700px) {
     .memory-game {
-        width: 90vw;
-    }
-    .memory-card {
-        width: calc(25% - 10px);
-        height: calc(30% - 10px);
+        width: 80vw;
     }
     .my-btn {
         width: 80px !important;
@@ -140,9 +127,14 @@
     #footer-container {
         text-align: center;
     }
+    .footer {
+        position: absolute;
+        height: auto;
+    }
 }
 @media screen and (max-width: 500px) {
     .memory-game {
+        width: 90vw;
         height: 65vh;
     }
 }

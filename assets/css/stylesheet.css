@@ -25,9 +25,7 @@ body {
         rgba(225, 0, 127)
     );
 }
-.navbar {
-    padding-top: 0 !important;
-}
+
 .nav-link {
     font-size: 4vh;
     letter-spacing: 4px;
@@ -54,14 +52,6 @@ a:hover {
 
 /* hero-image */
 
-<<<<<<< HEAD
-.hero-outer {
-    padding-left: 25%;
-    padding-right: 25%;
-}
-
-=======
->>>>>>> 3c46125c5f835f16ff5e12e51f0f8fb5420d4f94
 #hero-image {
     width: 100%;
     height: 100px;
@@ -75,14 +65,9 @@ a:hover {
 }
 
 #emoji-facts > h1 {
-<<<<<<< HEAD
-width: 100%;
-text-align: center;
-=======
     position: absolute;
     width: 100%;
     text-align: center;
->>>>>>> 3c46125c5f835f16ff5e12e51f0f8fb5420d4f94
 }
 
 #emoji-facts > h2 {
@@ -93,19 +78,24 @@ text-align: center;
 .footer {
     bottom: 0;
     width: 100%;
-<<<<<<< HEAD
-    background: #6CC7C6;
-    position: relative;
-    bottom: 0;
-=======
     height: 10%;
     background: #6cc7c6;
     position: sticky;
->>>>>>> 3c46125c5f835f16ff5e12e51f0f8fb5420d4f94
 }
-#logo {
-    height: 25px;
+
+/* .logo-in-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
+.logo-in-footer p{
+    font-size: 1.3em;
+    color: #f39562;
+    margin: 0 auto;
+    padding: 0;
+    margin-right: 10px;
+} */
 #footer-container {
     width: 96%;
     margin: 0 auto;
