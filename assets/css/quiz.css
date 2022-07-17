@@ -1,5 +1,6 @@
 html,
-body {
+body,
+section {
     height: 100%;
 }
 
@@ -120,4 +121,10 @@ body {
     position: relative;
     height: 200px;
     margin-top: 40px;
+}
+/* For medium screen sizes from 767px wide and down */
+@media screen and (max-width: 767px) {
+    .question {
+        font-size: 2rem;
+    }
 }
