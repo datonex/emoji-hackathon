@@ -1,7 +1,7 @@
 let questions = [
 {
     question: 'Which festival does &#127877 represent?',
-    option: ['Easter','Christmas','Halloween'],
+    options: ['Easter','Christmas','Halloween'],
     answer: 2,
 },
 {
