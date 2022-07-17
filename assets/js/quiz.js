@@ -1,25 +1,123 @@
-let counter = 0;
-window.addEventListener("load", function (event) {
+(function () {
+    // Functions
+    function buildQuiz() {
+        // variable to store the HTML output
+        const output = [];
 
-    console.log(questions);
-    document.getElementById("quiz").innerHTML = questions[0].question;
-    document.getElementById("answer1").innerHTML = questions[0].options[0];
-    document.getElementById("answer2").innerHTML = questions[0].options[1];
-    document.getElementById("answer3").innerHTML = questions[0].options[2];
-});
+        // for each question...
+        myQuestions.forEach((currentQuestion, questionNumber) => {
+            // variable to store the list of possible answers
+            const answers = [];
 
-function next() {
-    //Next button should not be displayed on the end of the questions array
-    counter++;
-    console.log(questions[counter]);
-    console.log(questions[counter].question);
-    document.getElementById("quiz").innerHTML = questions[counter].question;
-    document.getElementById("answer1").innerHTML = questions[counter].options[0];
-    document.getElementById("answer2").innerHTML = questions[counter].options[1];
-    document.getElementById("answer3").innerHTML = questions[counter].options[2];
-}
+            // and for each available answer...
+            for (letter in currentQuestion.answers) {
+                // ...add an HTML radio button
+                answers.push(
+                    `
+                    <div class="my-2">
+                    <input type="radio" class="btn-check w-50" name="question${questionNumber}" value="${letter}" id="${questionNumber}-${letter}">
+                    <label class="btn btn-checkbox w-50" for="${questionNumber}-${letter}">
+                        ${currentQuestion.answers[letter]}
+                    </label>
+                    </div>
+                    `
+                );
+            }
 
-//this could be done by DOM manipulation too.. 
-function checkAnswer() {
-    console.log('checkAnswer called');
-}
+            // add this question and its answers to the output
+            output.push(
+                `<div class="slide">
+                    <div class="question"> ${currentQuestion.question} </div>
+                    <div class="btn-group-vertical w-100" role="group" aria-label="Sort radio toggle button group">
+                        <div class="mb-2 w-100 answers"> ${answers.join('')} </div>
+                    </div>
+                </div>
+                `
+            );
+        });
+
+        // finally combine our output list into one string of HTML and put it on the page
+        quizContainer.innerHTML = output.join('');
+    }
+
+    function showResults() {
+        // gather answer containers from our quiz
+        const answerContainers = quizContainer.querySelectorAll('.answers');
+
+        // keep track of user's answers
+        let numCorrect = 0;
+
+        // for each question...
+        myQuestions.forEach((currentQuestion, questionNumber) => {
+            // find selected answer
+            const answerContainer = answerContainers[questionNumber];
+            const selector = `input[name=question${questionNumber}]:checked`;
+            const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+
+            // if answer is correct
+            if (userAnswer === currentQuestion.correctAnswer) {
+                // add to the number of correct answers
+                numCorrect++;
+
+                // color the answers green
+                answerContainers[questionNumber].style.color = 'lightgreen';
+            }
+            // if answer is wrong or blank
+            else {
+                // color the answers red
+                answerContainers[questionNumber].style.color = 'red';
+            }
+        });
+
+        // show number of correct answers out of total
+        resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    }
+
+    function showSlide(n) {
+        slides[currentSlide].classList.remove('active-slide');
+        slides[n].classList.add('active-slide');
+        currentSlide = n;
+        if (currentSlide === 0) {
+            previousButton.style.display = 'none';
+        } else {
+            previousButton.style.display = 'inline-block';
+        }
+        if (currentSlide === slides.length - 1) {
+            nextButton.style.display = 'none';
+            submitButton.style.display = 'inline-block';
+        } else {
+            nextButton.style.display = 'inline-block';
+            submitButton.style.display = 'none';
+        }
+    }
+
+    function showNextSlide() {
+        showSlide(currentSlide + 1);
+    }
+
+    function showPreviousSlide() {
+        showSlide(currentSlide - 1);
+    }
+
+    // Variables
+    const quizContainer = document.getElementById('quiz');
+    const resultsContainer = document.getElementById('results');
+    const submitButton = document.getElementById('submit');
+
+    // Kick things off
+    buildQuiz();
+
+    // Pagination
+    const previousButton = document.getElementById('previous');
+    const nextButton = document.getElementById('next');
+    const slides = document.querySelectorAll('.slide');
+    let currentSlide = 0;
+
+    // Show the first slide
+    showSlide(currentSlide);
+
+    // Event listeners
+    submitButton.addEventListener('click', showResults);
+    previousButton.addEventListener('click', showPreviousSlide);
+    nextButton.addEventListener('click', showNextSlide);
+})();
