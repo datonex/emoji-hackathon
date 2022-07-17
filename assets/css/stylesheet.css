@@ -108,9 +108,51 @@ text-align: center;
 
 /* Footer */
 .footer {
-    background-color: aqua;
+    bottom:0;
+    width:100%;
+    height:10%;   
+    background:#6cf;
+    position:sticky;
+}
+.logo-in-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.logo-in-footer p{
+    font-size: 1.3em;
+    color: #f39562;
+    margin: 0 auto;
+    padding: 0;
+    margin-right: 10px;
+}
+#footer-container{
+    width: 96%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.colaborators {
+    width:16%;
+    min-width: 100px;
+    display: inline-block;
+    flex-wrap: wrap;
     text-align: center;
-    margin-top: 15px;
+    overflow: hide;
+}
+.emoji {
+   font-size: 2em;
+}
+.colaborators p{
+    color: #f25256;
+    font-size: 1.3em;
+    margin: 0 auto;
+    padding: 0;
+}
+.colaborators i {
+    font-size: 1.6em;
+    color: #f39562;
 }
 
 /* For medium screen sizes from 900px wide and down */
