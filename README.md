@@ -1,4 +1,3 @@
-
 # Emoji day
 
 ## Overview
@@ -6,7 +5,7 @@
 We want to celebrate World Emoji day on the 17th of July with an interactive site to learn more about the emojis and their history. Did you for instance know that each festive day have a dedicated emoji? Play our checkbox game to find out more. Are we sometimes misunderstanding the Emojis meaning? Head over to our memory game to test your emoji memory and learn about how each emoji is described and their meaning.
 This site is interactive and fun and you'll leave knowing more about Emojis than you did before!
 
-_Memory game:_ The aim of the game is to select a card and attempt to find it's matching pair. 
+_Memory game:_ The aim of the game is to select a card and attempt to find it's matching pair.
 _Guess the event quiz:_ The user has to guess what the name of the event is using the emoji.
 
 :desktop_computer: [Live Website](https://datonex.github.io/emoji-hackathon/)
@@ -23,7 +22,7 @@ HOMEPAGE
 - As a user I want to know what the site is about so I know what to expect from it
 - As a user I want to see the team behind the page with links to their github so that I can find out more about them
 
-FUN PAGE
+QUIZ PAGE
 
 - As a user I want to interact with emojis so I can learn more about them
 - As a user I want to interact with emojis so I can test my skills
@@ -51,7 +50,6 @@ MEMORY PAGE
 ![Wireframe quiz mobile](/assets/readme_img/wireframe_quiz_mobile.png)
 
 ![Wireframe memory game mobile](/assets/readme_img/wireframe_memorygame_mobile.png)
-
 
 ### Features left to implement
 
@@ -87,6 +85,12 @@ MEMORY PAGE
 
 - [popper.js](https://popper.js.org/) - Used in some of the clickable elements such as collapsible 'hamburger' navbar and collapse element.
 
+- [Canva](https://www.canva.com/) - Used to design favicon and logo
+
+- [Tinypng](https://tinypng.com/) - Used to compress logo and favicon images
+
+- [https://www.remove.bg/](https://www.remove.bg/) - Used to remove background on all images
+
 ## Testing
 
 ### Bugs
@@ -109,10 +113,10 @@ MEMORY PAGE
 
 [Bangers - Google font](https://fonts.google.com/specimen/Bangers)
 
-
 #### Acknowledgements
 
 ### Collaborate / Team
+
 Tanya:
 Viktoria:
 Ivette:

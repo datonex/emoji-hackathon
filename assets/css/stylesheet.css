@@ -1,16 +1,29 @@
 body {
-    font-family: 'Bangers', cursive;
-    background-image: linear-gradient(to right, rgba(245, 129, 66), rgba(225, 0, 127));
+    font-family: "Bangers", cursive;
+    background-image: linear-gradient(
+        to right,
+        rgba(245, 129, 66),
+        rgba(225, 0, 127)
+    );
 }
 
 #header {
-    background-image: linear-gradient(to right, rgba(245, 129, 66), rgba(225, 0, 127));
+    background-image: linear-gradient(
+        to right,
+        rgba(245, 129, 66),
+        rgba(225, 0, 127)
+    );
 }
 
 #logo {
     float: left;
-    font-size: 7vh
+    height: 4.5vh;
     padding-left: 30px;
+    margin-top: 15px;
+}
+
+.logo {
+    height: 4.5vh;
 }
 
 /* navigation links */
@@ -20,7 +33,8 @@ body {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
     color: #ffff00;
 }
@@ -64,8 +78,9 @@ body {
     color: #ffff00;
 }
 
-
 /* Footer */
 .footer {
     background-color: aqua;
+    text-align: center;
+    margin-top: 15px;
 }
