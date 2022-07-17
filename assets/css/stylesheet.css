@@ -62,14 +62,15 @@ body {
 
 #hero-outer {
     padding-top: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0px;
 }
 
 #hero-image {
     width: 100%;
-    height: 250px;
+    height: 100px;
+    
 }
 
 .text-center {
