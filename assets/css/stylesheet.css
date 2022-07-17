@@ -138,4 +138,13 @@ a:hover {
     .menu a {
    padding-bottom: 30px;
     }
+
+    .colaborators p,
+    .text-center p {
+    font-size: 0.7em;
+}
+.colaborators i {
+    font-size: 0.7em;
+    padding-bottom: 10px;
+}
 }
