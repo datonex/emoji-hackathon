@@ -1,3 +1,4 @@
+
 (function () {
     // Functions
     function buildQuiz() {
