@@ -90,6 +90,10 @@
 .front-face {
     transform: rotateY(180deg);
 }
+.footer {
+    position: absolute;
+    height: auto;
+}
 
 /*------- Media ---------*/
 @media screen and (min-width: 980px) {
@@ -127,9 +131,10 @@
     #footer-container {
         text-align: center;
     }
+}
+@media screen and (max-width: 600px) {
     .footer {
-        position: absolute;
-        height: auto;
+        display: none;
     }
 }
 @media screen and (max-width: 500px) {
