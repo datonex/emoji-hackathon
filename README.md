@@ -89,7 +89,7 @@ MEMORY PAGE
 
 - [Tinypng](https://tinypng.com/) - Used to compress logo and favicon images
 
-- [https://www.remove.bg/](https://www.remove.bg/) - Used to remove background on all images
+- [Remove bg/](https://www.remove.bg/) - Used to remove background on all images
 
 ## Testing
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
@@ -132,6 +132,24 @@ MEMORY PAGE
 
 ## Deployment
 
+This website was published using GitHub Pages.
+
+- Navigate to [GitHub](https://github.com/) and log in.
+
+- Navigate to your repositories and find the project you want to deploy
+
+- Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
+
+- Scroll down till you see 'Pages' heading on the left hand side
+
+- Under the 'Source' click on the dropdown and select 'master' or 'main' branch and click save
+
+- The page will reload and you'll see the link of your published page displayed under 'GitHub' pages.
+
+- It takes a few minutes for the site to be published, wait until the background of your link changes to a green color before trying to open it.
+
+- Congratulations you have deployed your project!
+
 ## Credits
 
 ### Media
@@ -140,11 +158,11 @@ MEMORY PAGE
 
 #### Content
 
-[Bangers - Google font](https://fonts.google.com/specimen/Bangers)
+- [Bangers - Google font](https://fonts.google.com/specimen/Bangers)
 
 #### Acknowledgements
 
-### Collaborate / Team
+### Team
 
 Tanya:
 Viktoria:

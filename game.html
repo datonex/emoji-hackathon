@@ -12,64 +12,53 @@
         <!-- Google Font -->
         <link
             href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
-            rel="stylesheet" />   
+            rel="stylesheet" />
         <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/stylesheet.css" /> 
+        <link rel="stylesheet" href="assets/css/stylesheet.css" />
         <link rel="stylesheet" href="./assets/css/memory.css" />
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
         <link rel="manifest" href="assets/favicon/site.webmanifest" />
+         <!--fontawesome-->
+         <script src="https://kit.fontawesome.com/f84495756a.js" crossorigin="anonymous"></script>
         <title>Game</title>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand">
                 <div class="container-fluid">
-                    <a href="index.html">
+                    <a class="navbar-brand" href="index.html">
                         <img
-                            class="navbar-brand logo"
+                            src="/assets/img/logo/logo-light-green.png"
                             alt="enemoji logo"
-                            src="assets/img/logo/logo-black.png" />
-                    </a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="quiz.html">Quiz</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="game.html">Memory game</a>
-                            </li>
-                        </ul>
-                    </div>
+                            height="40"
+                            class="d-inline-block align-text-top"
+                    /></a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link m-3" aria-current="page" href="quiz.html">Quiz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-3 active" href="game.html">Memory</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>
 
         <!-- Score bar -->
         <div id="scorebar">
-            <div class="score-item"></div>
             <div class="score-item">
-                <h2 id="insert-name"></h2>
+                <h2 class="ms-3 mb-0" id="insert-name"></h2>
             </div>
             <div class="score-item">
-                <button type="button" class="btn btn-warning border-secondary mb-2 btn-sm" onclick="quitGame()">
+                <button
+                    type="button"
+                    class="btn btn-warning border-secondary mb-2 btn-sm"
+                    id="quit-btn"
+                    onclick="quitGame()">
                     QUIT GAME
                 </button>
             </div>
@@ -109,11 +98,17 @@
                     <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
                 </div>
                 <div class="memory-card" data-framework="grinning-face">
-                    <img src="./assets/img/grinning-face.png" alt="grinning-face" class="front-face" />
+                    <img
+                        src="./assets/img/grinning-face.png"
+                        alt="grinning-face"
+                        class="front-face" />
                     <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
                 </div>
                 <div class="memory-card" data-framework="grinning-face">
-                    <img src="./assets/img/grinning-face.png" alt="grinning-face" class="front-face" />
+                    <img
+                        src="./assets/img/grinning-face.png"
+                        alt="grinning-face"
+                        class="front-face" />
                     <img src="./assets/img/thumbs-up.png" alt="thumbs-up" class="back-face" />
                 </div>
                 <div class="memory-card" data-framework="smiling-face-with-heart-eyes">
@@ -161,7 +156,85 @@
             </div>
         </section>
 
-        <footer class="footer">@Tanya @Martin @Ivette @Eleanor @Pavithra @Viktoria</footer>
+        <footer class="footer ">
+            <div class="text-center pt-2">
+                <p>©️ Code Institute - World Emoji Day Hackathon</p>
+            </div>
+            <div id="footer-container">
+                <div class="fontainer-fluid">
+                    <div class="row">
+                        <div class="colaborators col">
+                            <span class="emoji">🦖</span>
+                            <p>@Tanya</p>
+                            <a href="https://www.linkedin.com/in/tanyagomwe10/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/datonex" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="colaborators col">
+                            <span class="emoji">👨</span>
+                            <p>@Martin</p>
+                            <a href="https://www.linkedin.com/in/martin-pavlin/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Martin-ITT" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="colaborators col">
+                            <span class="emoji">🤦</span>
+                            <p>@Ivette</p>
+                            <a
+                                href="https://www.linkedin.com/in/ivette-mc-dermott-8b2045242/"
+                                target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/IvetteMcDermott" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="colaborators col">
+                            <span class="emoji">🙈</span>
+                            <p>@Eleanor</p>
+                            <a
+                                href="https://www.linkedin.com/in/eleanor-bucke-38a5b6222"
+                                target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/eleanorbucke21" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="colaborators col">
+                            <span class="emoji">👩</span>
+                            <p>@Pavithra</p>
+                            <a
+                                href="https://www.linkedin.com/in/pavithra-veeramani-a31a6b22/"
+                                target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Pavithra-Veeramani" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="colaborators col">
+                            <span class="emoji">🍾</span>
+                            <p>@Viktoria</p>
+                            <a
+                                href="https://www.linkedin.com/in/viktoria-mahrberg/"
+                                target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/viktoriamahrberg" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
