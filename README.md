@@ -126,13 +126,13 @@ MEMORY PAGE
 
 - Memory game is not showing properly and is covered by footer
 
-[memory game bug](/assets/readme_img/bug_memory.png)
+![Memory game bug](/assets/readme_img/bug_memory.png)
 
 - Navbar and footer is different on the different pages due to an unfound bug we were unable to respolve it.
 
-[navbar1](/assets/readme_img/navbar1.png)
+![Navbar1](/assets/readme_img/navbar1.png)
 
-[navbar2](/assets/readme_img/navbar2.png)
+![Navbar2](/assets/readme_img/navbar2.png)
 
 
 ### HTML validation
@@ -163,7 +163,6 @@ This website was published using GitHub Pages.
 
 ## Credits
 
-- [Quiz and Fun facts](https://emojipedia.org/world-cup/)
 
 ### Media
 
@@ -173,6 +172,8 @@ This website was published using GitHub Pages.
 ### Content
 
 - [Bangers - Google font](https://fonts.google.com/specimen/Bangers)
+
+- [Quiz and Fun facts](https://emojipedia.org/world-cup/)
 
 
 ### Team
