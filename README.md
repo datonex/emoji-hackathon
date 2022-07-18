@@ -92,6 +92,35 @@ MEMORY PAGE
 - [Remove bg/](https://www.remove.bg/) - Used to remove background on all images
 
 ## Testing
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    <p>Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements and CSS styles on the fly. </p>
+
+ * Responsiveness
+    <p>[Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.</p>
+
+    <p>Chrome DevTools was used to test responsiveness in different screen sizes during the development process.</p>
+
+### Manual Testing
+
+* Browser Compatibility
+
+     Browser | Outcome | Pass/Fail 
+     --- | --- | ---
+     Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
+     Safari | No appearance, responsiveness nor functionality issues. | Pass
+     Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
+     Firefox | No appearance, responsiveness nor functionality issues. | Pass
+
+
+* Device compatibility
+
+     Device | Outcome | Pass/Fail
+    --- | --- | ---
+    Laptop | No appearance, responsiveness nor functionality issues. | Pass
+    ipad pro | No appearance, responsiveness nor functionality issues. | Pass
+    iphone SE | No appearance, responsiveness nor functionality issues. | Pass
+    iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
+
 
 ### Bugs
 
