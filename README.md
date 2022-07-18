@@ -1,4 +1,4 @@
-# Emoji day
+![Responsive Image](/assets/readme_img/imresponsive.png)
 
 ## Overview
 
@@ -100,7 +100,6 @@ MEMORY PAGE
  * Responsiveness
     [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
 
-
 ### Manual Testing
 
 * Browser Compatibility
@@ -124,6 +123,17 @@ MEMORY PAGE
 
 
 ### Bugs
+
+- Memory game is not showing properly and is covered by footer
+
+[memory game bug](/assets/readme_img/bug_memory.png)
+
+- Navbar and footer is different on the different pages due to an unfound bug we were unable to respolve it.
+
+[navbar1](/assets/readme_img/navbar1.png)
+
+[navbar2](/assets/readme_img/navbar2.png)
+
 
 ### HTML validation
 
