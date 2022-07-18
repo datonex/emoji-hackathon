@@ -153,20 +153,28 @@ This website was published using GitHub Pages.
 
 ## Credits
 
+- [Quiz and Fun facts](https://emojipedia.org/world-cup/)
+
 ### Media
 
-#### Images
+- [Gfycat-video on index.html](https://gfycat.com/lividknobbydevilfish-emoji-heart-emoji-poop-emoji)
 
-#### Content
+
+### Content
 
 - [Bangers - Google font](https://fonts.google.com/specimen/Bangers)
 
-#### Acknowledgements
 
 ### Team
 
-Tanya:
-Viktoria:
-Ivette:
-Eleanor:
-Pavithra:
+- [Tanya](https://github.com/datonex)
+
+- [Viktoria](https://github.com/viktoriamahrberg)
+
+- [Ivette](https://github.com/IvetteMcDermott)
+
+- [Eleanor](https://github.com/eleanorbucke21)
+
+- [Pavithra](https://github.com/Pavithra-Veeramani)
+
+- [Martin](https://github.com/Martin-ITT)
