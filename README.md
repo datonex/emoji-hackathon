@@ -53,6 +53,8 @@ MEMORY PAGE
 
 ### Features left to implement
 
+- Add the correct answer after each question in the Quiz.
+
 ## Technologies
 
 ### Languages used
@@ -93,12 +95,11 @@ MEMORY PAGE
 
 ## Testing
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    <p>Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements and CSS styles on the fly. </p>
+    Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements and CSS styles on the fly, and to test responsiveness in different screen sizes.
 
  * Responsiveness
-    <p>[Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.</p>
+    [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
 
-    <p>Chrome DevTools was used to test responsiveness in different screen sizes during the development process.</p>
 
 ### Manual Testing
 
