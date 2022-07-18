@@ -26,6 +26,7 @@ body {
     );
 }
 
+/* Navbar */
 .nav-link {
     font-size: 4vh;
     letter-spacing: 4px;
@@ -91,20 +92,8 @@ a:hover {
     position: sticky;
 }
 
-/* .logo-in-footer {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin: 0;
-}
-.logo-in-footer p{
-    font-size: 1.3em;
-    color: #f39562;
-    margin: 0 auto;
-    padding: 0;
-    margin-right: 10px;
-} */
-#footer-container {
+
+.footer-container {
     width: 96%;
     margin: 0 auto;
     margin-left: auto;
@@ -170,18 +159,41 @@ a:hover {
         padding-bottom: 30px;
     }
 
+    #emoji-facts {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #emoji-facts > h1 {
+        font-size: 1.5em;
+    }
+    
+    #emoji-facts > h2 {
+        font-size: 1em;
+       
+    }
+    #emoji-facts > p {
+        font-size: 0.7em;
+       
+    }
+
+
+
+
     .colaborators p,
     .text-center p {
-        font-size: 0.7em;
+        font-size: 0.5em;
         padding: 0;
     }
 
     .colaborators i {
-        font-size: 0.7em;
+        font-size: 0.5em;
         padding: 0;
         padding-bottom: 10px;
     }
     .emoji {
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
+ 
 }

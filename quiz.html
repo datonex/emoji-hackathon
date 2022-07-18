@@ -22,42 +22,47 @@
     <title>Quiz</title>
 </head>
 
-<body class="d-flex flex-column">
-    <div class="quiz-page-container">
-        <nav class="navbar navbar-expand">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="/assets/img/logo/logo-light-green.png" alt="enemoji logo" height="40"
-                        class="d-inline-block align-text-top" />
-                </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link m-3 active" aria-current="page" href="quiz.html">Quiz</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link m-3" href="game.html">Memory</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <section class="container flex-column justify-content-between text-white mb-5">
-            <div class="quiz-container text-center my-5">
-                <div id="quiz"></div>
-            </div>
-            <div class="text-center my-5 btn-container">
-                <button type="button" class="quiz-btn" id="previous">Previous Question</button>
-                <button type="button" class="quiz-btn" id="next">Next Question</button>
-                <button class="submit-btn" id="submit">Submit Quiz</button>
-            </div>
-            <div id="results" class="text-center"></div>
-        </section>
+<body>
+    <nav class="navbar navbar-expand">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="/assets/img/logo/logo-light-green.png" alt="enemoji logo" height="40"
+                    class="d-inline-block align-text-top" />
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link m-3 active" aria-current="page" href="quiz.html">Quiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link m-3" href="game.html">Memory</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="d-flex flex-column">
+        <div class="quiz-page-container">
+            <section class="container flex-column justify-content-between text-white mb-5">
+                <div class="quiz-container text-center my-5">
+                    <div id="quiz"></div>
+                </div>
+                <div class="text-center my-5 btn-container">
+                    <button type="button" class="quiz-btn" id="previous">Previous Question</button>
+                    <button type="button" class="quiz-btn" id="next">Next Question</button>
+                    <button class="submit-btn" id="submit">Submit Quiz</button>
+                </div>
+                <div id="results" class="text-center">
+                </div>
+            </section>
+        </div>
     </div>
+
     <footer class="footer">
         <div class="text-center pt-2">
             <p>©️ Code Institute - World Emoji Day Hackathon</p>
         </div>
-        <div id="footer-container">
-            <div class="fontainer-fluid">
+        <div class="footer-container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="colaborators col">
                         <span class="emoji">🦖</span>
