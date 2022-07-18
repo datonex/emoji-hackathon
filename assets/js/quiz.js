@@ -39,11 +39,9 @@ function next() {
 
 //this could be done by DOM manipulation too.. 
 function checkAnswer(event) {
-    //console.log('checkAnswer called');
-    // if(document.getElementById("quiz").checked)
-    //     document.getElementById('').innerHTML = "Bravo";
+    
     console.log(event.value);
-    console.log(questions[counter].answer)
+    console.log(questions[counter].answer);
     if(event.value == questions[counter].answer ) {
         document.getElementById("result-message").innerHTML = "Your answer is correct";
     }else{
