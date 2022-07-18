@@ -1,4 +1,4 @@
-# Emoji day
+![Responsive Image](/assets/readme_img/imresponsive.png)
 
 ## Overview
 
@@ -53,6 +53,8 @@ MEMORY PAGE
 
 ### Features left to implement
 
+- Add the correct answer after each question in the Quiz.
+
 ## Technologies
 
 ### Languages used
@@ -93,12 +95,10 @@ MEMORY PAGE
 
 ## Testing
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    <p>Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements and CSS styles on the fly. </p>
+    Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements and CSS styles on the fly, and to test responsiveness in different screen sizes.
 
  * Responsiveness
-    <p>[Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.</p>
-
-    <p>Chrome DevTools was used to test responsiveness in different screen sizes during the development process.</p>
+    [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
 
 ### Manual Testing
 
@@ -123,6 +123,17 @@ MEMORY PAGE
 
 
 ### Bugs
+
+- Memory game is not showing properly and is covered by footer
+
+![Memory game bug](/assets/readme_img/bug_memory.png)
+
+- Navbar and footer is different on the different pages due to an unfound bug we were unable to respolve it.
+
+![Navbar1](/assets/readme_img/navbar1.png)
+
+![Navbar2](/assets/readme_img/navbar2.png)
+
 
 ### HTML validation
 
@@ -152,20 +163,29 @@ This website was published using GitHub Pages.
 
 ## Credits
 
+
 ### Media
 
-#### Images
+- [Gfycat-video on index.html](https://gfycat.com/lividknobbydevilfish-emoji-heart-emoji-poop-emoji)
 
-#### Content
+
+### Content
 
 - [Bangers - Google font](https://fonts.google.com/specimen/Bangers)
 
-#### Acknowledgements
+- [Quiz and Fun facts](https://emojipedia.org/world-cup/)
+
 
 ### Team
 
-Tanya:
-Viktoria:
-Ivette:
-Eleanor:
-Pavithra:
+- [Tanya](https://github.com/datonex)
+
+- [Viktoria](https://github.com/viktoriamahrberg)
+
+- [Ivette](https://github.com/IvetteMcDermott)
+
+- [Eleanor](https://github.com/eleanorbucke21)
+
+- [Pavithra](https://github.com/Pavithra-Veeramani)
+
+- [Martin](https://github.com/Martin-ITT)
