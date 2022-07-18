@@ -72,6 +72,14 @@ a:hover {
 
 #emoji-facts > h2 {
     text-decoration: underline;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+   
+}
+#emoji-facts > p {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 /* Footer */
@@ -111,10 +119,12 @@ a:hover {
     text-align: center;
     overflow: hide;
     margin-top: 20px;
+    letter-spacing: 1px;
 }
 
 .emoji {
     font-size: 1em;
+    
 }
 
 .colaborators p,
@@ -123,6 +133,7 @@ a:hover {
     font-size: 1em;
     margin: 0 auto;
     padding: 0;
+    letter-spacing: 1px;
 }
 
 .colaborators i {
